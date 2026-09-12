@@ -4,7 +4,7 @@ import imgs from '../assets/logo-text.png'
 const Nav = () => {
     return (
 
-        <nav className="bg-[#f9efef] p-8">
+        <nav className="bg-[#f4f2f2] p-5">
             <div className="container mx-auto flex  justify-between py-1">
                 <img src={imgs} alt="" width={280} />
                 <ul className="flex gap-7 items-center text-1xl ">
