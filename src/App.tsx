@@ -6,6 +6,7 @@ import About from './components/About'
 import Api from './components/Api';
 import Nav from './components/Nav'
 import type { Iexplore } from './types/types';
+import Footer from './Footer';
 
 
 const ExploretheTechnologie = async (): Promise<Iexplore[]> => {
@@ -30,7 +31,7 @@ function App() {
       <Suspense fallback={<h2>Loding....</h2>}>
         <Api Explorepromis={Explorepromis} />
       </Suspense>
-
+      <Footer />
     </>
 
   )
